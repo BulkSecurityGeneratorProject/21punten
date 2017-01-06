@@ -29,6 +29,7 @@
     "languages": [
       "nl",
       "en"
-    ]
+    ],
+    "serviceDiscoveryType": false
   }
 }
