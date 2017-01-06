@@ -1,0 +1,12 @@
+version: '2'
+services:
+    21punten-postgresql:
+        container_name: 21punten-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/21punten/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=21punten
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
